@@ -23,3 +23,9 @@ gem 'cells', '>= 4.0.0.alpha1', github: 'apotonick/cells'
 gem 'trailblazer'
 gem 'slim-rails'
 gem 'twilio-ruby'
+
+group :development, :test do
+  gem 'rspec'
+  gem 'roodi'
+  gem 'rubocop'
+end
