@@ -25,8 +25,11 @@ gem 'trailblazer'
 gem 'slim-rails'
 gem 'twilio-ruby'
 
+gem 'thin'
+
 group :development, :test do
   gem 'rspec'
+  gem 'rspec-rails'
   gem 'roodi'
   gem 'rubocop'
 end
