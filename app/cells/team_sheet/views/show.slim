@@ -1,0 +1,6 @@
+.team-sheet
+  h1 Team Sheet
+
+  table
+    - team_sheet.each do |role|
+      == render view: 'table_entry', locals: { entry: role }, format: 'html'

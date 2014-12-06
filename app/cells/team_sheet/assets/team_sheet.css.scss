@@ -1,0 +1,15 @@
+@import 'colors';
+
+.team-sheet {
+    position: relative;
+    border: 1px solid grey;
+    padding: 0 10px 10px 10px;
+    table {
+        width: 100%;
+
+        .role {
+            color: $main-color;
+            font-weight: bolder;
+        }
+    }
+}
