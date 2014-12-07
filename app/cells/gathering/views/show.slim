@@ -1,0 +1,18 @@
+.gathering
+  h1 = name
+
+  h2 = day_and_time
+
+  table.roles
+    thead
+      tr
+        th Name
+        th Type
+        th Go-to
+
+    tbody
+      - roles.each do |role|
+        tr
+          td = role[:name]
+          td = role[:type]
+          td == cell(:goto, role[:"go-to"])

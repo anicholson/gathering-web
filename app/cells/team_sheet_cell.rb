@@ -13,17 +13,17 @@ class TeamSheetCell < Cell::ViewModel
     [
      OpenStruct.new(
       role: 'Welcoming',
-      name: 'Amanda Lyons'
+      name: 'Amanda Panda'
      ),
      OpenStruct.new(
       role: 'Bible Reading',
-      name: 'Daniel Broadbridge'
+      name: 'Daniel Narrowgate'
      ),
      OpenStruct.new(
       role: 'Music',
       name: 'Band A',
       contact: OpenStruct.new(
-                name: 'Dave Carbines',
+                name: 'Dave Rifles',
                 phone: '04xx xxx xxx'
                )
      )
