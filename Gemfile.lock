@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/anicholson/gathering.git
+  revision: 2b36de27eedc810d752d14e3cbcccdef120b6112
+  specs:
+    gathering (0.0.1)
+      lotus-model
+
+GIT
   remote: git://github.com/apotonick/cells.git
   revision: 9e3c5791137011a3b30b86e1766a56bf27c4c243
   specs:
@@ -7,12 +14,6 @@ GIT
       railties (>= 3.2)
       tilt (>= 1.4, < 3)
       uber (~> 0.0.9)
-
-PATH
-  remote: ../gathering
-  specs:
-    gathering (0.0.1)
-      lotus-model
 
 GEM
   remote: https://rubygems.org/
