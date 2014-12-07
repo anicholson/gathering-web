@@ -33,3 +33,5 @@ group :development, :test do
   gem 'roodi'
   gem 'rubocop'
 end
+
+gem 'rails_12factor', group: :production
