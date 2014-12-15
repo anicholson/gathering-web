@@ -1,7 +1,11 @@
 source 'https://rubygems.org'
 
-gem 'gathering', github: 'anicholson/gathering'
 ruby '2.1.3'
+
+gem 'gathering', github: 'anicholson/gathering'
+
+#gem 'gathering', path: '../gathering'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
 # Use SCSS for stylesheets

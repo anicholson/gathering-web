@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/anicholson/gathering.git
-  revision: 2b36de27eedc810d752d14e3cbcccdef120b6112
+  revision: c96e8c95f82ddadf257667eb9de88d4b6377f259
   specs:
     gathering (0.0.1)
       lotus-model
