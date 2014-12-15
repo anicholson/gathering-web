@@ -27,11 +27,16 @@ gem 'twilio-ruby'
 
 gem 'thin'
 
+gem 'sqlite3'
+
 group :development, :test do
   gem 'rspec'
   gem 'rspec-rails'
   gem 'roodi'
   gem 'rubocop'
+  gem 'pry'
+  gem 'byebug'
+  gem 'pry-byebug'
 end
 
 gem 'rails_12factor', group: :production
