@@ -1,0 +1,8 @@
+---
+AllCops:
+  Exclude:
+    - 'Rakefile'
+  RunRailsCops: true
+
+Documentation:
+  Enabled: false
