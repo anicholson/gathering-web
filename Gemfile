@@ -28,7 +28,7 @@ gem 'twilio-ruby'
 gem 'thin'
 
 gem 'sequel'
-gem 'sqlite3'
+gem 'pg'
 
 group :development, :test do
   gem 'rspec'
