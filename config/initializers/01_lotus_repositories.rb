@@ -8,7 +8,7 @@ DB_PATH = ENV['DATABASE_URL'] || "postgres://localhost:5432/gathering_#{Rails.en
 SQLAdapter = Lotus::Model::Adapters::SqlAdapter.new(
     Mappers::GatheringMapper,
     {
-      adapter: 'sqlite',
+      adapter: 'postgres',
       database: DB_PATH
     }
 )
